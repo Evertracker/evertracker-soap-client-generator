@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd "$(dirname "$0")"
-
 display_help()
 {
     echo "evertracker PHP client generator for SOAP services"
@@ -25,6 +23,8 @@ display_help()
     echo "  -h|--help"
     echo "  displays this help"
 }
+
+cd "$(dirname "$0")"
 
 for i in "$@"
 do
@@ -60,6 +60,7 @@ do
         -h|--help)
         shift # past argument=value
         display_help
+        exit
         ;;
         --default)
         DEFAULT=YES
