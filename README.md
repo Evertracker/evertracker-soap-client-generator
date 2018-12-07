@@ -27,4 +27,4 @@ Options (<b>bold</b> are mandatory):<br>
 <br>
 <b>Example</b>
 
-./public/generate.sh -w=~/Calculator.wsdl -n=Evertracker\\SoapClient -o=~/Calculator/SoapClient/ -a=0 -u=vlad -p=password -c=30
+./public/generate.sh -w=\~/Calculator.wsdl -n=Evertracker\\SoapClient -o=\~/Calculator/SoapClient/ -a=0 -u=vlad -p=password -c=30
