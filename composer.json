@@ -1,0 +1,20 @@
+{
+    "name": "evertracker/evertracker-soap-client-generator",
+    "description": "This project implements a shell script for generating SOAP client PHP classes for SOAP services, based on WSDL interface.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "require": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": "3.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evertracker\\SoapClientGenerator\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    }
+}
